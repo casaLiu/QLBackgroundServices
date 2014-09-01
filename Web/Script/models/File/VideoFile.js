@@ -22,9 +22,10 @@
 		fileList : [],
 		getFileList : function(){
 
-		},
-	}});
+		}
+	});
 })(this.ViewModel);
 $(function(){
-	ko.applyBindings(ViewModel.FileInfo)
+	// ko.applyBindings(ViewModel.FileInfo);
+	// ko.applyBindings(ViewModel.FileInfoList);
 });

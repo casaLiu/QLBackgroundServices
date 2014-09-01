@@ -14,5 +14,5 @@
 	});
 })(this.ViewModel);
 $(function(){
-	ko.applyBindings(ViewModel.speakerInfo)
+	// ko.applyBindings(ViewModel.speakerInfo)
 });

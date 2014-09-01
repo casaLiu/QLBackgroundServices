@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="UTF-8">
 		<script type="text/javascript" src="../Script/Libs/jquery-1.11.1.min.js"></script>
 		<script type="text/javascript" src="../Script/Libs/jquery.livequery.js"></script>
 		<script type="text/javascript" src="../Script/Libs/knockout-3.1.0.js"></script>
@@ -16,19 +17,67 @@
 			<li data-bind = "text: name">
 			</li>
 		</script>
-		<!-- 左侧导航 -->
-		<div class = "slidebar" data-bind = "with : NavInfoList">
-			<ul  data-bind = "template : { name : 'left_fun_Nav', foreach : navList	}"></ul>
-		</div>
-		<!-- 左侧导航 -->
 		<!-- MainForm -->
-		<div calss = "page-wrap">
-			<div class="page-content">
-			</div>
+	<div calss = "page-wrap">
+		<label for="sidebartoggler" class="toggle">☰</label>
+		<div class="page-content">
+			
+			<div class="unit"></div>
+			<div class="unit"></div>
+			<div class="unit"></div>
+			
+			<div class="unit"></div>
+			<div class="unit"></div>
+			<div class="unit"></div>
+			
+			<div class="unit"></div>
+			<div class="unit"></div>
+			<div class="unit"></div>
+			
+			<div class="unit"></div>
+			<div class="unit"></div>
+			<div class="unit"></div>
+			
+			<div class="unit"></div>
+			<div class="unit"></div>
+			<div class="unit"></div>
+			
+			<div class="unit"></div>
+			<div class="unit"></div>
+			<div class="unit"></div>
+			
+			<div class="unit"></div>
+			<div class="unit"></div>
+			<div class="unit"></div>
+			
+			<div class="unit"></div>
+			<div class="unit"></div>
+			<div class="unit"></div>
+			
+			<div class="unit"></div>
+			<div class="unit"></div>
+			<div class="unit"></div>
+			
+			<div class="unit"></div>
+			<div class="unit"></div>
+			<div class="unit"></div>
+			
+			<div class="unit"></div>
+			<div class="unit"></div>
+			<div class="unit"></div>
+			
+			<div class="unit"></div>
+			<div class="unit"></div>
+			<div class="unit"></div>
+			
 		</div>
-
-		<script type="text/javascript">
-			<script type="text/javascript" src="../Script/Libs/knockout.mapping.js"></script>
-		</script>
-	</body>
+				<div class = "slidebar" data-bind = "with : ViewModel.NavInfoList">
+			<ul data-bind = "template : { name : 'left_fun_Nav', foreach : navList	}"></ul>
+		</div>
+	</div>
+	<script type="text/javascript" src="../Script/viewmodel/ViewModel.js"></script>
+	<script type="text/javascript" src="../Script/models/File/SpeakerFile.js"></script>
+	<script type="text/javascript" src="../Script/models/File/VideoFile.js"></script>
+	<script type="text/javascript" src="../Script/models/FunNavModel/Function_Nav.js"></script>
+</body>
 </html>

@@ -7,5 +7,5 @@
 *
 */
 (function(win) {
-	var win.ViewModel = {};
+	win.ViewModel = {};
 })(this);
