@@ -6,6 +6,6 @@
 *@note: BackgroundServices's ViewModels
 *
 */
-
-
-var vm = function() {}；
+(function(win) {
+	var win.ViewModel = {};
+})(this);
