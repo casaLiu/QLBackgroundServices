@@ -18,66 +18,74 @@
 			</li>
 		</script>
 		<!-- MainForm -->
-	<div calss = "page-wrap">
-		<label for="sidebartoggler" class="toggle">☰</label>
-		<div class="page-content">
+		<input type="checkbox" id="sidebartoggler" name="" value="">
+		<div class="page-wrap">
 			
-			<div class="unit"></div>
-			<div class="unit"></div>
-			<div class="unit"></div>
+			<label for="sidebartoggler" class="toggle">☰</label>
 			
-			<div class="unit"></div>
-			<div class="unit"></div>
-			<div class="unit"></div>
+			<div class="page-content">
+				
+				<div class="unit"></div>
+				<div class="unit"></div>
+				<div class="unit"></div>
+				
+				<div class="unit"></div>
+				<div class="unit"></div>
+				<div class="unit"></div>
+				
+				<div class="unit"></div>
+				<div class="unit"></div>
+				<div class="unit"></div>
+				
+				<div class="unit"></div>
+				<div class="unit"></div>
+				<div class="unit"></div>
+				
+				<div class="unit"></div>
+				<div class="unit"></div>
+				<div class="unit"></div>
+				
+				<div class="unit"></div>
+				<div class="unit"></div>
+				<div class="unit"></div>
+				
+				<div class="unit"></div>
+				<div class="unit"></div>
+				<div class="unit"></div>
+				
+				<div class="unit"></div>
+				<div class="unit"></div>
+				<div class="unit"></div>
+				
+				<div class="unit"></div>
+				<div class="unit"></div>
+				<div class="unit"></div>
+				
+				<div class="unit"></div>
+				<div class="unit"></div>
+				<div class="unit"></div>
+				
+				<div class="unit"></div>
+				<div class="unit"></div>
+				<div class="unit"></div>
+				
+				<div class="unit"></div>
+				<div class="unit"></div>
+				<div class="unit"></div>
+				
+			</div>
 			
-			<div class="unit"></div>
-			<div class="unit"></div>
-			<div class="unit"></div>
-			
-			<div class="unit"></div>
-			<div class="unit"></div>
-			<div class="unit"></div>
-			
-			<div class="unit"></div>
-			<div class="unit"></div>
-			<div class="unit"></div>
-			
-			<div class="unit"></div>
-			<div class="unit"></div>
-			<div class="unit"></div>
-			
-			<div class="unit"></div>
-			<div class="unit"></div>
-			<div class="unit"></div>
-			
-			<div class="unit"></div>
-			<div class="unit"></div>
-			<div class="unit"></div>
-			
-			<div class="unit"></div>
-			<div class="unit"></div>
-			<div class="unit"></div>
-			
-			<div class="unit"></div>
-			<div class="unit"></div>
-			<div class="unit"></div>
-			
-			<div class="unit"></div>
-			<div class="unit"></div>
-			<div class="unit"></div>
-			
-			<div class="unit"></div>
-			<div class="unit"></div>
-			<div class="unit"></div>
-			
+			<div class="sidebar" data-bind = "with: ViewModel.NavInfoList">
+				<ul data-bind = "template: { name : 'left_fun_Nav', foreach : navList }">
+				</ul>
+			</div>
 		</div>
-				<div class = "slidebar" data-bind = "with : ViewModel.NavInfoList">
-			<ul data-bind = "template : { name : 'left_fun_Nav', foreach : navList	}"></ul>
-		</div>
-	</div>
-	<script type="text/javascript" src="../Script/viewmodel/ViewModel.js"></script>
-	<script type="text/javascript" src="../Script/models/File/SpeakerFile.js"></script>
-	<script type="text/javascript" src="../Script/models/File/VideoFile.js"></script>
-	<script type="text/javascript" src="../Script/models/FunNavModel/Function_Nav.js"></script>
-</body>
+		<!-- /MainForm -->
+		<!-- 脚本文件 -->
+		<script type="text/javascript" src="../Script/viewmodel/ViewModel.js"></script>
+		<script type="text/javascript" src="../Script/models/File/SpeakerFile.js"></script>
+		<script type="text/javascript" src="../Script/models/File/VideoFile.js"></script>
+		<script type="text/javascript" src="../Script/models/FunNavModel/Function_Nav.js"></script>
+		<!-- /脚本文件 -->
+	</body>
 </html>

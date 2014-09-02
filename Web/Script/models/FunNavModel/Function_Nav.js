@@ -25,5 +25,8 @@ $(function(){
 	list.push({id : '1', name : '导入话单', link : ''});
 	list.push({id : '2', name : '话单转码', link : ''});
 	list.push({id : '3', name : '操作历史', link : ''});
+	// ViewModel.NavInfoList.navList.push({id : '1', name : '导入话单', link : ''});
+	// ViewModel.NavInfoList.navList.push({id : '2', name : '话单转码', link : ''});
+	// ViewModel.NavInfoList.navList.push({id : '3', name : '操作历史', link : ''});
 	ViewModel.NavInfoList.navList(list);
 });
