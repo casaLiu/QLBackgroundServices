@@ -3,10 +3,9 @@ html, body {
   padding: 0; }
 
 .unit {
-  height: 100px;
-  width: 30%;
+  height: 920px;
+  width: 100%;
   margin: 1.5%;
-  background: #cccccc;
   float: left; }
 
 .page-content {
