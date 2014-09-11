@@ -4,14 +4,14 @@ __author__ = 'rui'
 # -*-coding: utf-8 -*-
 import os.path, time
 
-class FileInfo:
-    name = ""
-    fullName = ""
-    fileSize = ""
-    createTime = ""
 
-    def __init__(self):
-        pass
+class FileInfo:
+    def __init__(self, name, fullName, fileSize, createTime):
+        self.name = name
+        self.fullName = fullName
+        self.fileSize = fileSize
+        self.createTime = createTime
+
 
 class FileParsing:
     files = []
