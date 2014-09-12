@@ -3,7 +3,6 @@ __author__ = 'rui'
 
 from richenum import RichEnumValue
 
-
 class Encoding(RichEnumValue):
     pcm = RichEnumValue(canonical_name = 1, display_name = 1)
     alaw = RichEnumValue(canonical_name = 6, display_name = 6)
