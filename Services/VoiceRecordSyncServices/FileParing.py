@@ -21,11 +21,12 @@ class FileParsing:
         self.path = ""
 
     def fillFileInfo(self, name):
-        fileName = name.decode("GBK").encode("utf8")
-        fileSize = getsize(unicode(join(self.path, fileName), 'utf8'))
-        fullName = join(self.path, fileName)
-        createTime = time.ctime(getctime(unicode(join(self.path, fileName), 'utf8')))
-        self.files.append(FileInfo(fileName, fullName, fileSize, createTime))
+        if os.path.splitext(name)[1] == '.wav' or os.path.splitext(name)[1] == '.pcm':
+            fileName = name.decode("GBK").encode("utf8")
+            fileSize = getsize(unicode(join(self.path, fileName), 'utf8'))
+            fullName = join(self.path, fileName)
+            createTime = time.ctime(getctime(unicode(join(self.path, fileName), 'utf8')))
+            self.files.append(FileInfo(fileName, fullName, fileSize, createTime))
 
 
     def getFiles(self, path):
@@ -36,5 +37,6 @@ class FileParsing:
 
 #if __name__ == "__main__":
 #    fp = FileParsing()
-#    fp.getFiles("D:/Test")
-#    print fp.files[2].fileName
+#    fp.getFiles("//127.0.0.1/d$/Test")
+#    print jsonpickle.encode(fp.files, unpicklable = False)
+
