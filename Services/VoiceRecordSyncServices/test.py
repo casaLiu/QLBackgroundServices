@@ -1,55 +1,45 @@
-# -*- coding: utf-8 -*-
+import tornado.httpserver
+import tornado.ioloop
+import tornado.options
+import tornado.web
+import tornado.httpclient
 
-from __future__ import absolute_import
-from optparse import OptionParser
+import urllib
+import json
+import datetime
 import time
-import stomp
+
+from tornado.options import define, options
+
+define("port", default = 8000, help = "run on the given port", type = int)
 
 
-class SimpleListener(object):
-    def on_error(self, headers, message):
-        print '=> Received an error: %s' % message
+class IndexHandler(tornado.web.RequestHandler):
+    def get(self):
+        query = self.get_argument('q')
+        client = tornado.httpclient.HTTPClient()
+        response = client.fetch("http://search.twitter.com/search.json?" + \
+                                urllib.urlencode({"q": query, "result_type": "recent", "rpp": 100}))
+        body = json.loads(response.body)
+        result_count = len(body['results'])
+        now = datetime.datetime.utcnow()
+        raw_oldest_tweet_at = body['results'][-1]['created_at']
+        oldest_tweet_at = datetime.datetime.strptime(raw_oldest_tweet_at,
+                                                     "%a, %d %b %Y %H:%M:%S +0000")
+        seconds_diff = time.mktime(now.timetuple()) - \
+                       time.mktime(oldest_tweet_at.timetuple())
+        tweets_per_second = float(result_count) / seconds_diff
+        self.write("""
+<div style="text-align: center">
+    <div style="font-size: 72px">%s</div>
+    <div style="font-size: 144px">%.02f</div>
+    <div style="font-size: 24px">tweets per second</div>
+</div>""" % (query, tweets_per_second))
 
-    def on_message(self, headers, message):
-        print '=> Received a message: %s' % message
 
-
-def consume(options):
-    connection = stomp.Connection(host_and_ports = [('localhost', 61613)])
-    try:
-        listener = SimpleListener()
-        connection.set_listener('', listener)
-        connection.start()
-        connection.connect(wait = True)
-        connection.subscribe(destination = options.destination, id = 1, ack = 'auto',
-                             headers = {'selector': "flag='1'"})
-        listener.wait_on_re
-
-    finally:
-        connection.disconnect()
-
-
-if __name__ == '__main__':
-    parser = OptionParser()
-    parser.add_option(
-        '--host',
-        dest = 'host',
-        default = 'localhost',
-        help = 'Queue server host (defaults to localhost)',
-        metavar = 'HOST')
-    parser.add_option(
-        '--port',
-        dest = 'port',
-        default = 61613,
-        type = 'int',
-        help = 'Queue server host (defaults to 61613)',
-        metavar = 'POST')
-    parser.add_option(
-        '--destination',
-        dest = 'destination',
-        default = '/queue/whatever',
-        help = 'Destination name (defaults to /queue/whatever)',
-        metavar = 'QUEUE NAME')
-
-    (options, args) = parser.parse_args()
-    consume(options)
+if __name__ == "__main__":
+    tornado.options.parse_command_line()
+    app = tornado.web.Application(handlers = [(r"/", IndexHandler)])
+    http_server = tornado.httpserver.HTTPServer(app)
+    http_server.listen(options.port)
+    tornado.ioloop.IOLoop.instance().start()

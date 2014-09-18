@@ -35,8 +35,8 @@ class FileParsing:
             map(self.fillFileInfo, files)
 
 
-#if __name__ == "__main__":
-#    fp = FileParsing()
-#    fp.getFiles("//127.0.0.1/d$/Test")
-#    print jsonpickle.encode(fp.files, unpicklable = False)
+if __name__ == "__main__":
+    fp = FileParsing()
+    fp.getFiles("//127.0.0.1/d$/Test")
+    print jsonpickle.encode(fp.files, unpicklable = False)
 

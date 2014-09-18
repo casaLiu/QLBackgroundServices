@@ -12,11 +12,11 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/VoiceRecordImport$VoiceRecordSyncServices.coverage" NAME="VoiceRecordSyncServices Coverage Results" MODIFIED="1410524732962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VoiceRecordImport$VoiceRecordSyncServices.coverage" NAME="VoiceRecordSyncServices Coverage Results" MODIFIED="1410934785439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/VoiceRecordImport$testRichEnum.coverage" NAME="testRichEnum Coverage Results" MODIFIED="1410401987706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/VoiceRecordImport$FileParing.coverage" NAME="FileParing Coverage Results" MODIFIED="1410856923905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VoiceRecordImport$FileParing.coverage" NAME="FileParing Coverage Results" MODIFIED="1410926480740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/VoiceRecordImport$VoiceRecordEnum.coverage" NAME="VoiceRecordEnum Coverage Results" MODIFIED="1410407475327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/VoiceRecordImport$test.coverage" NAME="test Coverage Results" MODIFIED="1410855550103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VoiceRecordImport$test.coverage" NAME="test Coverage Results" MODIFIED="1410956897639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -33,7 +33,7 @@
       <file leaf-file-name="FileParing.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FileParing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="47" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="945">
+            <state line="37" column="0" selection-start="1073" selection-end="1220" vertical-scroll-proportion="0.0" vertical-offset="777" max-vertical-offset="1008">
               <folding />
             </state>
           </provider>
@@ -42,25 +42,16 @@
       <file leaf-file-name="VoiceRecordSyncServices.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/VoiceRecordSyncServices.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="1264" selection-end="1264" vertical-scroll-proportion="0.6258278" vertical-offset="0" max-vertical-offset="924">
+            <state line="22" column="56" selection-start="540" selection-end="540" vertical-scroll-proportion="0.29249448" vertical-offset="8" max-vertical-offset="987">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rest.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Python27/Lib/site-packages/pyrestful-0.3.2.alpha-py2.7.egg!/pyrestful/rest.py">
+      <file leaf-file-name="test.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="44" selection-start="2893" selection-end="2907" vertical-scroll-proportion="0.0" vertical-offset="1551" max-vertical-offset="5943">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/tornado/web.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="13" selection-start="3595" selection-end="3600" vertical-scroll-proportion="0.0" vertical-offset="2029" max-vertical-offset="44793">
+            <state line="19" column="48" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1050">
               <folding />
             </state>
           </provider>
@@ -78,10 +69,8 @@
       <file leaf-file-name="Messager.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Messager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="43" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="966">
-              <folding>
-                <element signature="e#43#55#0" expanded="true" />
-              </folding>
+            <state line="17" column="0" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="966">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,10 +98,11 @@
         <option value="$PROJECT_DIR$/testRichEnum.py" />
         <option value="$PROJECT_DIR$/VoiceRecordEnum.py" />
         <option value="$PROJECT_DIR$/ResAudio.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Messager.py" />
-        <option value="$PROJECT_DIR$/FileParing.py" />
         <option value="$PROJECT_DIR$/MqOption.py" />
+        <option value="C:/Python27/Lib/site-packages/tornado/web.py" />
+        <option value="$PROJECT_DIR$/FileParing.py" />
+        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/VoiceRecordSyncServices.py" />
       </list>
     </option>
@@ -327,7 +317,7 @@
       <PyConsoleSettings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.FileParing">
+  <component name="RunManager" selected="Python.test">
     <configuration default="false" name="FileParing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -422,8 +412,10 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VoiceRecordSyncServices.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonCover" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonCover" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -586,9 +578,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.FileParing" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.VoiceRecordSyncServices" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.VoiceRecordSyncServices" />
+        <item index="2" class="java.lang.String" itemvalue="Python.FileParing" />
         <item index="3" class="java.lang.String" itemvalue="Python.VoiceRecordEnum" />
         <item index="4" class="java.lang.String" itemvalue="Python.testRichEnum" />
       </list>
@@ -621,7 +613,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -629,10 +621,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28705752" sideWeight="0.6741453" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31028762" sideWeight="0.6741453" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39957264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -654,30 +646,27 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>jar://C:/Python27/Lib/site-packages/pyrestful-0.3.1.alpha-py2.7.egg!/pyrestful/rest.py</url>
+          <line>239</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>jar://C:/Python27/Lib/site-packages/pyrestful-0.3.1.alpha-py2.7.egg!/pyrestful/rest.py</url>
+          <line>232</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/VoiceRecordSyncServices.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python27/Lib/site-packages/tornado/stack_context.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="240" column="0" selection-start="9258" selection-end="9258" vertical-scroll-proportion="0.33270678" vertical-offset="4695" max-vertical-offset="5796" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/tornado/httpserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="332" column="0" selection-start="13683" selection-end="13683" vertical-scroll-proportion="0.33270678" vertical-offset="6522" max-vertical-offset="10752" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/tornado/iostream.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="327" column="0" selection-start="12765" selection-end="12765" vertical-scroll-proportion="0.295" vertical-offset="6375" max-vertical-offset="20076" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/stompy/stomp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="8" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.3327787" vertical-offset="556" max-vertical-offset="5544" />
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/stompest/sync/examples/consumer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601" />
@@ -690,21 +679,12 @@
     </entry>
     <entry file="file://C:/Python27/Lib/optparse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1189" column="8" selection-start="42563" selection-end="42563" vertical-scroll-proportion="0.33333334" vertical-offset="24625" max-vertical-offset="35847">
-          <folding />
-        </state>
+        <state line="1189" column="8" selection-start="42563" selection-end="42563" vertical-scroll-proportion="0.33333334" vertical-offset="24625" max-vertical-offset="35847" />
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/stomp/protocol.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="88" column="37" selection-start="3266" selection-end="3266" vertical-scroll-proportion="0.3327787" vertical-offset="1543" max-vertical-offset="6027" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ResAudio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="8" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="609">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/VoiceRecordEnum.py">
@@ -714,44 +694,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="31" selection-start="803" selection-end="826" vertical-scroll-proportion="0.6638935" vertical-offset="189" max-vertical-offset="1260" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FileParing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="47" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="945">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Messager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="43" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="966">
-          <folding>
-            <element signature="e#43#55#0" expanded="true" />
-          </folding>
+        <state line="17" column="0" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="966">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Python27/Lib/site-packages/pyrestful-0.3.2.alpha-py2.7.egg!/pyrestful/rest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="44" selection-start="2893" selection-end="2907" vertical-scroll-proportion="0.0" vertical-offset="1551" max-vertical-offset="5943">
+        <state line="96" column="44" selection-start="2893" selection-end="2907" vertical-scroll-proportion="0.26203808" vertical-offset="1614" max-vertical-offset="5943" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Python27/Lib/site-packages/pyrestful-0.3.1.alpha-py2.7.egg!/pyrestful/rest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="239" column="40" selection-start="8009" selection-end="8017" vertical-scroll-proportion="0.6237402" vertical-offset="4315" max-vertical-offset="5208">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResAudio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="8" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="609">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileParing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="1073" selection-end="1220" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="48" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1050">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/tornado/web.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="13" selection-start="3595" selection-end="3600" vertical-scroll-proportion="0.0" vertical-offset="2029" max-vertical-offset="44793">
+        <state line="192" column="0" selection-start="5938" selection-end="5938" vertical-scroll-proportion="0.4290579" vertical-offset="2961" max-vertical-offset="62979">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/tornado/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="37" selection-start="2578" selection-end="2589" vertical-scroll-proportion="-0.25496688" vertical-offset="1596" max-vertical-offset="7476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/tornado/tcpserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="6" selection-start="1149" selection-end="1149" vertical-scroll-proportion="-0.25496688" vertical-offset="777" max-vertical-offset="5292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/tornado/httpserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="19" selection-start="654" selection-end="665" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="6363">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/VoiceRecordSyncServices.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1264" selection-end="1264" vertical-scroll-proportion="0.6258278" vertical-offset="0" max-vertical-offset="924">
+        <state line="22" column="56" selection-start="540" selection-end="540" vertical-scroll-proportion="0.29249448" vertical-offset="8" max-vertical-offset="987">
           <folding />
         </state>
       </provider>
